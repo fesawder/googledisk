@@ -16,7 +16,8 @@ function initClient() {
         // Начинаем ловить события логина/логаута (см. ниже)
         gapi.auth2.getAuthInstance().isSignedIn.listen(onSignIn)
         // инициализация приложения
-        initApp()
+        /* initApp() */
+        console.log('инициализирую приложение')
 
     }, error => {
         console.log('Failed to init GAPI client', error)
