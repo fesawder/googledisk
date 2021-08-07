@@ -1,5 +1,21 @@
 body {
-    background-color: crimson;
+    margin: 0;
+    background-color: #404040;
+}
+
+header {
+    background-color: burlywood;
+    padding: 8px;
+}
+
+header .auth {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+header .auth button {
+    margin: 8px;
 }
 
 h1 {
