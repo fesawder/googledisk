@@ -1,18 +1,10 @@
-let body = document.querySelector('body');
-let p = document.createElement('p');
-p.innerHTML = 'Скрипты на месте';
-body.append(p);
-
-
-const GOOGLE_API_KEY = 'AIzaSyCntahLWhxAM2L2OnPUacVzojRyMjIAK1I';
-const GOOGLE_CLIENT_ID = '126471463465-16ouhhdb50af1sqajoffmse2t3dneb5o.apps.googleusercontent.com';
 function initClient() {
     gapi.client.init({
         // Ваш ключ API
-        apiKey: GOOGLE_API_KEY,
+        apiKey: 'AIzaSyCntahLWhxAM2L2OnPUacVzojRyMjIAK1I',
 
         // Ваш идентификатор клиента
-        clientId: GOOGLE_CLIENT_ID,
+        clientId: '126471463465-16ouhhdb50af1sqajoffmse2t3dneb5o.apps.googleusercontent.com',
 
         // Указание, что мы хотим использовать Google Drive API v3
         discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'],
